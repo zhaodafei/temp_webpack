@@ -13,7 +13,7 @@ module.exports = {
         path: path.resolve(__dirname, './dist'),
         filename: "js/bundle.js",
         publicPath: "./",
-        environment: {  // 告诉webpack，不适用箭头函数(兼容IE11)
+        environment: {  // 告诉webpack，不使用箭头函数(兼容IE11)
             arrowFunction: false,
             const: false
         }
