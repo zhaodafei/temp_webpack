@@ -1,7 +1,8 @@
 # temp_webpack
 webpack demo
 ```
-#当前使用"webpack": "^5.40.0", "webpack-cli": "^4.7.2"
+#如果webpack 是全局安装的不需要指定目录,直接使用命令即可,下面的都是(非全局安装webpack)指定目录的命令
+#当前使用"webpack": "^5.38.1", "webpack-cli": "^3.11.2"
 npm init
     -----package name:   webpack_fei
 npm i webpack webpack-cli   #npm install webpack webpack-cli

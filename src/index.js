@@ -1,2 +1,2 @@
-import css from "./index.css"
-console.log("版版本");
+import less from "./index.less"
+console.log("版本");
