@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    // "module": "commonjs", // 模块化规范
+    // "target": "es5", // 打包后的代码版本
+    // "sourceMap": true,
+    "module": "ES2015", // 模块化规范
+    "target": "ES2015", // 打包后的代码版本
+    "strict": true,  // 严格模式总开关
+    "noEmitOnError": true  // 有错误时别打包
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -7,8 +7,8 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 module.exports = {
     mode: 'development', // 开发者模式
     // node: "production",
-    // entry: './src/index.ts' // ts 入口
-    entry: './src/index.js', // js 入口
+    entry: './src/index.ts', // ts 入口
+    // entry: './src/index.js', // js 入口
     output: {
         path: path.resolve(__dirname, './dist'),
         filename: "js/bundle.js",
