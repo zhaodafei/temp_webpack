@@ -1,10 +1,14 @@
-interface inter2 {
-    length: number;
-}
+import "./index.less"; // 引入样式
+console.log("ts 版本");
 
-function fn2<T extends inter2>(name: T): number {
-    return name.length;
-}
 
-fn2<string>("daFei");
-fn2<Array<string>>(["论语", "史记"]);
+// demo1
+let foo: { name: string, age: number; } = {name: "daFei", age: 18};
+console.log(foo);
+
+// demo2
+function bar<T>(name: T): T {
+    console.log(name);
+    return name;
+}
+bar<String>("daFei"); // 字符串

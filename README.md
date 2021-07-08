@@ -1,6 +1,20 @@
 # temp_webpack
 webpack demo
+
+```wiki
+使用说明:
+
+
+安装依赖 npm  install
+
+启动: npm serve 
+
 ```
+
+```
+在 webpack.config.js 可以修改是否使用ts作为入口
+
+
 #如果webpack 是全局安装的不需要指定目录,直接使用命令即可,下面的都是(非全局安装webpack)指定目录的命令
 #当前使用"webpack": "^5.38.1", "webpack-cli": "^3.11.2"
 npm init
